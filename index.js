@@ -12,4 +12,8 @@ function nameToAttributes(drivers) {
 function attributesToPhrase(drivers) {
      const newDrivers = drivers.map(function (driver) {return `${driver.name} is from ${driver.hometown}`})
      return newDrivers;
+<<<<<<< HEAD
  }
+=======
+ } 
+>>>>>>> 7d903af4dc3c451ba22dea2bd21a399b47317398
